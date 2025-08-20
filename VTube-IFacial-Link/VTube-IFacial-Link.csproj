@@ -64,16 +64,16 @@
     <None Update="Resources\default-scripts.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <Page Update="Pages\HomePage.xaml">
+    <Page Update="Views\HomePage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Update="Pages\DataPage.xaml">
+    <Page Update="Views\DataPage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Update="Pages\ParametersPage.xaml">
+    <Page Update="Views\ParametersPage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Update="Pages\GlobalsPage.xaml">
+    <Page Update="Views\GlobalsPage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Update="CreateNameDialog.xaml">
