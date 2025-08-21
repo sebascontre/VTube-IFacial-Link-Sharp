@@ -30,6 +30,9 @@ namespace VTube_IFacial_Link
         {
             this.InitializeComponent();
             this.Title = "VTube-IFacial-Link";
+
+            this.ExtendsContentIntoTitleBar = true;
+            SetTitleBar((this.Content as Views.MainPage).AppTitleBar);
         }
     }
 }
