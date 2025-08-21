@@ -96,7 +96,7 @@ namespace IFacial
                     Data.BlendShapes.EyeSquintRight = value;
                     break;
                 case "eyeWide_R":
-                    Data.BlendShapes.EyeWideLeft = value;
+                    Data.BlendShapes.EyeWideRight = value;
                     break;
 
                 // Mouth and Jaw
