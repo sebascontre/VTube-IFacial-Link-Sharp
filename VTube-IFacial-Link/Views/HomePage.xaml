@@ -9,7 +9,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:wraplayout="using:WrapLayout"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" NavigationCacheMode="Required">
+    NavigationCacheMode="Required">
 
     <StackPanel Margin="16,8" VerticalAlignment="Center" HorizontalAlignment="Center">
         <wraplayout:WrapPanel Orientation="Horizontal" HorizontalAlignment="Center">

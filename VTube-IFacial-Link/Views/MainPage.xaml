@@ -36,7 +36,7 @@
             </muxc:NavigationView.MenuItems>
 
             <Grid>
-                <Frame x:Name="ContentFrame" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" IsTabStop="True" IsNavigationStackEnabled="False" NavigationFailed="ContentFrame_NavigationFailed"/>
+                <Frame x:Name="ContentFrame" Background="{ThemeResource CardBackgroundFillColorDefaultBrush}" IsTabStop="True" IsNavigationStackEnabled="False" NavigationFailed="ContentFrame_NavigationFailed"/>
 
                 <Border Grid.Row="0" Opacity="{Binding BusyMessageOpacity, ElementName=Root}" Width="300" Height="200" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" BorderThickness="1" BorderBrush="{ThemeResource ApplicationPressedForegroundThemeBrush}" CornerRadius="8" IsHitTestVisible="False" Translation="0,0,128" RenderTransformOrigin="0.5,0.5">
                     <Border.RenderTransform>
