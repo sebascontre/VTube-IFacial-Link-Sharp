@@ -23,6 +23,7 @@
   	<Copyright>Copyright © 2023 Xuan25</Copyright>
   	<Description>A VTube Studio plugin that bridging facial tracking from iFacialMocap (IOS), enabling full Apple ARKit facial tracking features.</Description>
 	<AssemblyVersion>0.2.0.0</AssemblyVersion>
+	<ApplicationIcon>Assets\icon.ico</ApplicationIcon>
   </PropertyGroup>
 
   <Target Name="Archive" AfterTargets="Publish">
@@ -92,6 +93,11 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Dialogs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Update="Assets\icon.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
   <!-- 
